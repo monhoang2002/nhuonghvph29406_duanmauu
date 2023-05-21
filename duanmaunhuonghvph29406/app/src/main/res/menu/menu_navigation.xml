@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/nav_quanLiPhieuMuon"
+        android:title="Quản lý phiếu mượn"
+        android:icon="@drawable/ic_baseline_home_24"/>
+    <item android:id="@+id/nav_quanLiLoaiSach"
+        android:title="Quản lý loại sách"
+        android:icon="@drawable/ic_baseline_switch_account_24"/>
+    <item android:id="@+id/nav_quanLiSach"
+        android:title="Quản lý sach"
+        android:icon="@drawable/ic_baseline_picture_as_pdf_24"/>
+    <item android:id="@+id/nav_quanLiThanhVien"
+        android:title="Quản lý thành viên"
+        android:icon="@drawable/ic_baseline_people_24"
+        />
+   <group>
+       <item android:title="Share">
+           <menu>
+               <item android:id="@+id/nav_10SachMuonNhieuNhat"
+                   android:title="10 loại sách mượn nhiều nhât"
+                   android:icon="@drawable/ic_baseline_vertical_align_top_24"/>
+               <item android:id="@+id/nav_doanhThu"
+                   android:icon="@drawable/ic_baseline_attach_money_24"
+                   android:title="Doanh Thu"/>
+           </menu>
+       </item>
+   </group>
+    <group>
+        <item android:title="Người dùng">
+            <menu>
+                <item android:id="@+id/nav_dangKy"
+                    android:title="Tạo tài Khoản
+"                   android:icon="@drawable/ic_baseline_person_add_24"/>
+                <item android:id="@+id/nav_doiMatKhau"
+                    android:title="Đổi mật khẩu"
+                    android:icon="@drawable/ic_baseline_vpn_key_24"/>
+                <item android:id="@+id/nav_dangXuat"
+                    android:title="Đăng xuất"
+                    android:icon="@drawable/ic_baseline_logout_24"/>
+            </menu>
+        </item>
+    </group>
+
+
+</menu>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#E8E2E2"
+    tools:context=".activity_login">
+    <ImageView
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/fpt"/>
+    <TextView
+        android:layout_marginLeft="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tên đăng nhập "
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="100dp"/>
+    <EditText
+        android:id="@+id/dangNhap_Ten"
+        android:layout_margin="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_edittex"/>
+    <TextView
+        android:layout_marginLeft="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mật khẩu"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="50dp"/>
+    <EditText
+        android:id="@+id/dangNhap_matKhau"
+        android:inputType="textPassword"
+        android:layout_margin="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_edittex"/>
+    <CheckBox
+        android:id="@+id/dangNhap_luu"
+        android:layout_marginLeft="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lưu đăng nhập"
+        android:layout_marginTop="10dp"/>
+    <LinearLayout
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/dangNhap_login"
+            android:background="@drawable/buttom_backgroup"
+            android:layout_margin="10dp"
+            android:text="Đăng nhập"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/dangNhap_huy"
+            android:background="@drawable/buttom_backgroup"
+            android:text="Đăng kí"
+            android:layout_margin="10dp"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</LinearLayout>
